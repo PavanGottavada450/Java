@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class ArmstongWithinRange {
 	public static void main(String args[]) {
 		
+		//armstrong nummber within range of the number
+		
 		Scanner sc = new Scanner(System.in);
 		
 		int num1 = sc.nextInt();
