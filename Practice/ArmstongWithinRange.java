@@ -30,6 +30,8 @@ public class ArmstongWithinRange {
 				System.out.print(i + " ");
 			}
 			
+			
+			
 		}
 		sc.close();
 		
