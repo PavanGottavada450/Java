@@ -10,7 +10,19 @@ public class FibonacciSeries {
 		
 		int num = sc.nextInt();
 		
-		System.out.println("number is " + num);
+		
+		int a = 0;
+		int b = 1;
+		System.out.print(a+", "+b+", ");
+		
+		for(int i=1; i<=num; i++) {
+			int next = a+ b;
+			a=b;
+			b=next;
+			System.out.print(next+ ", ");
+		}
+		
+		
 	}
 
 }
