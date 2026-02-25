@@ -2,19 +2,21 @@ package Practice;
 
 import java.util.Scanner;
 
-public class FactorNumber {
+public class RevOfArray {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+
 		Scanner sc = new Scanner(System.in);
 		
-		int num = sc.nextInt();
+		int arr[] = {10, 20, 30, 40, 50};
 		
-		for(int i =1; i<= num;i++) {
-			if(num%i == 0) {
-				System.out.print(i+ ", ");
-			}
+		int n=arr.length;
+		
+		for(int i=n-1;i>=0;i--) {
+			System.out.print(arr[i]+ " ");
 		}
+		
 	}
 
 }
